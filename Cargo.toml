@@ -1,0 +1,10 @@
+[package]
+name = "chess-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thiserror = "2.0.12"
+derive_more = { version = "2.0.1", features = ["full"] }
+itertools = "0.14.0"
+log = "0.4.27"
